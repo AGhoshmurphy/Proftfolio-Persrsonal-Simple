@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My E-Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About Me</h2>
+            <p>
+              I am a dedicated and passionate student with a strong proficiency in website development using HTML, CSS, and JavaScript. With a keen eye for design and attention to detail, I strive to create engaging and user-friendly web experiences. I have honed my skills through hands-on projects and continuous learning, allowing me to stay up-to-date with the latest industry trends and best practices. My E-Portfolio showcases my expertise, creativity, and problem-solving abilities. From conceptualizing ideas to implementing them with clean code, I am driven to deliver high-quality websites that exceed expectations. Join me on my journey as I continue to explore new frontiers in web development.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="aaa.jpg" alt="Profile Picture" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-dark text-white">
+      <div class="container">
+        <h2>Experience</h2>
+        <ul>
+          <li>Company A - Web Developer</li>
+          <li>Company B - UI/UX Designer</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>
+            <span class="skill-name">HTML</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+            <span class="skill-percentage">90%</span>
+          </li>
+          <li>
+            <span class="skill-name">CSS</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+            <span class="skill-percentage">80%</span>
+          </li>
+          <li>
+            <span class="skill-name">JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%;"></div>
+            </div>
+            <span class="skill-percentage">70%</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-dark text-white">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="111.jpg" alt="Project 1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">E-COMMERCE Website</h5>
+                <p class="card-text">Responsive e-commerce website using HTML5, CSS3, jQuery, JavaScript, Bootstrap 5.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="22.jpg" alt="Project 2" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Tours & Travel Website Design</h5>
+                <p class="card-text">Responsive tours and travel website design using HTML5, CSS3, jQuery, JavaScript, Bootstrap 5.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="33.jpg" alt="Project 3" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Online Education Website</h5>
+                <p class="card-text">Responsive online education website using HTML5, CSS3, jQuery, JavaScript, Bootstrap 5.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2023 My E-Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

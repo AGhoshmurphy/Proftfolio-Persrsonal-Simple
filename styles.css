@@ -1,0 +1,237 @@
+/* Global Styles */
+body {
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: rgb(185, 250, 5);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(202, 255, 153);
+  }
+  
+  /* Main Section Styles */
+  .section {
+    padding: 50px 0;
+  }
+  
+  #about {
+    background-color: rgb(202, 255, 153);
+    color: #000000;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  #experience {
+    background-color: #333;
+  }
+  
+  #experience h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #experience ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experience li {
+    color: rgb(204, 166, 255);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #skills {
+    background-color: rgb(153, 171, 255);
+    color: #333;
+  }
+  
+  #skills h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #skills li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio {
+    background-color: #333;
+  }
+  
+  #portfolio h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(230, 245, 18);
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #2f01fd;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(247, 4, 186, 0.959);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 18px;
+  }
+  
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: rgba(255, 155, 233, 0.582);
+    color: #333;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  textarea.form-control {
+    height: 150px;
+  }
+  
+  
+  .btn-primary {
+    background-color: rgb(99, 241, 4);
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00FF00;
+    color: #fff;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .slide-in {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .rotate {
+    animation: rotate 2s linear infinite;
+  }
+  
